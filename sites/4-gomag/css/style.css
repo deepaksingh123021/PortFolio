@@ -1,0 +1,353 @@
+* {	margin: 0; padding: 0; box-sizing: border-box; }
+header {}
+#background-image-1 {
+            background-image: url("../images/background-01.jpg");
+            overflow: hidden;
+            background-repeat: no-repeat;
+    		background-size: cover;
+}
+#margin-left-right {
+	margin-left: 10%;
+	margin-right:10%;
+        padding-top:2%;
+        padding-bottom:2%;
+}
+#logo {
+	float: left;
+}
+#menu { 
+        float: right;
+}
+#bars{ display: none; float: right; cursor: pointer; 
+}
+#mobile-menu {
+	text-align: center;
+	background: black;
+	color: #fff;
+	width: 60%;
+	position: absolute;
+	right: -288px;
+	top: 41px;
+	height: 100%;
+	transition: all .3s;
+	display: none;
+}
+#mobile-menu a {
+	
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	padding: 3%;
+}
+#mobile-menu a:hover {
+	background-color: red;
+}
+#chk { 
+	display: none; 
+}
+#chk:checked ~ #mobile-menu {
+	right: 0;
+}
+#strip {
+	background-color: #abafb199;
+	overflow: hidden;
+}
+#contant {
+          padding-top:15%;
+          padding-bottom:13%;
+}
+#b1, #b3, #b4, #b5, #b6, #b7 {
+     background-color: red;
+     padding-top: 1%;
+     padding-bottom: 1%;
+     padding-left: 1%;
+     padding-right: 1%;
+}
+#b2 {
+     background-color: transparent;
+     border-width: 2px;
+     border-color: black;
+     color: black;
+      padding-top: 1%;
+     padding-bottom: 1%;
+     padding-left: 1%;
+     padding-right: 1%;
+}
+#nisi-arcu {
+            text-align: center;
+			padding-top:5%;
+
+}
+#auctor ,#lacus ,#risus {
+						padding-top:5%;
+						padding-bottom:5%;
+						float: left; 
+						width: 33%;
+}
+.button {
+	     padding-top: 1%;
+	     padding-bottom: 1%;
+	     padding-left: 1%;
+	     padding-right: 1%;
+}
+#background-image-2 {
+					background-image: url("../images/background-02.jpg");
+					height: 300px;
+}
+#background-image-3 {
+					background-image: url("../images/background-03.jpg");
+					padding-bottom: 31%;
+					background-repeat: no-repeat;
+					background-size: cover;
+}
+#image-pad{
+	padding-top: 2%;
+	padding-bottom: 2%; 
+}
+#img {
+	margin-bottom: -1%;
+}
+#image {
+		width: 50%;
+		float: right;
+}
+.images {
+		width: 25%;
+		float: left;
+}
+#blandit {
+		width:40%;
+		float: left;
+		color: white;
+}
+#lectus-nullam, #non-dui, #integer {
+		float: left;
+		width: 30%;
+		background-color: rgba(205,183,185,.5);
+	    margin: 1%;
+    	text-align: center;
+    	padding-top: 2%;
+    	padding-bottom: 2%;
+    	position: relative;
+}
+#lectus-nullam i {
+	position: absolute;
+	background-color: red;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-bottom: 1%;
+	padding-top: 1%;
+	top: -26%;
+    left: 46%;
+
+}
+#non-dui i {
+	position: absolute;
+	background-color: red;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-bottom: 1%;
+	padding-top: 1%;
+	top: -20%;
+    left: 44%;
+}
+#integer i {
+	position: absolute;
+	background-color: red;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-bottom: 1%;
+	padding-top: 1%;
+	top: -20%;
+    left: 44%;
+
+}
+#font-color {
+			color: white;
+			text-align: center;
+			padding-top: 2%;
+}
+#eget {
+	float: right;
+	padding-right: 8%;
+}
+#background-image-4 {
+	background-image: url("../images/background-04.jpg");
+	clear: both;
+	padding-bottom: 30%;
+	width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#gomag, #metus {
+	color: white;
+}
+ {
+	float: left;
+}
+#con, #him, #sce {
+	float: left;
+	width: 33%;
+}
+#sce i{
+	color: red;
+}
+#him i {
+	color: red;
+}
+#con i {
+	color: red;
+}
+.c {
+	color: red;
+}
+#gomag, #metus, #non {
+	color: white;
+	width: 33%;
+	float: left;
+}
+#gomag i{
+	color: red;
+}
+#metus i {  }
+#copyright {
+	background-color: #252525;
+    padding-bottom: 2%;
+}
+#copy, #tem {
+	color: #c5c4c4;
+	width: 50%;
+	float: left;
+}
+#tem {
+	    padding-left: 26%;
+}
+#icolor i {
+	background-color: red;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-bottom: 1%;
+	padding-top: 1%;
+}
+@media only screen and (max-width: 480px ) {
+	#auctor ,#lacus ,#risus {
+		    width: 100%;
+   	}
+	#bars {
+	 display: block; 
+	}
+	#menu {
+	 display: none; 
+	}
+	#mobile-menu {
+		display: block;
+	}
+	#lectus-nullam, #non-dui, #integer {
+		width: 100%;
+	}
+	#eget {
+		    float: left;
+	}
+	.image {
+		width: 100%;
+	}
+	#blandit {
+		width: 100%;
+	}
+	#image {
+		width: 100%;
+		float: left;
+	}
+	#gomag, #metus, #non {
+		width: 100%;
+	}
+	img {
+		width: 100%;
+	}
+	#background-image-3 {
+		height: 519px;
+	}
+	#background-image-4 {
+		   height: 1004px;
+	}
+	#copyright {
+		height: 70px;
+	}
+	#copy {
+		float: none;
+		width: 100%;
+	}
+	#tem {
+		padding-left: 0%;
+		width: 100%;
+	}
+	.images {
+		width: 100%;
+	}
+	#con, #him, #sce {
+		width: 100%;
+	}
+}
+@media only screen and (min-width: 481px ) and (max-width: 620px ) {
+	#auctor ,#lacus ,#risus {
+		    width: 100%;
+   	}
+	#bars {
+	 display: block; 
+	}
+	#menu {
+	 display: none; 
+	}
+	#mobile-menu {
+		display: block;
+		right: -460px;
+	}
+	#lectus-nullam, #non-dui, #integer {
+		width: 100%;
+	}
+	#eget {
+		    float: left;
+	}
+	.image {
+		width: 100%;
+	}
+	#blandit {
+		width: 100%;
+	}
+	#image {
+		width: 100%;
+		float: left;
+	}
+	#gomag, #metus, #non {
+		width: 100%;
+	}
+	img {
+		width: 100%;
+	}
+	#background-image-2, #background-color-1 {
+		height: 343px !important;
+	}
+	#background-image-3 {
+		    height: 672px;
+	}
+	#background-image-4 {
+		   height: 1116px;
+	}
+	#copyright {
+		height: 70px;
+	}
+	#copy {
+		float: none;
+		width: 100%;
+	}
+	#tem {
+		padding-left: 0%;
+		width: 100%;
+	}
+	.images {
+		width: 100%;
+	}
+	#con, #him, #sce {
+		width: 100%;
+	}
+}

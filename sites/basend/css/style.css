@@ -1,0 +1,343 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+/*              start header          */
+header {
+	background-image: url(../img/background-01.jpg);
+	width: 100%;
+	height: 700px;
+	overflow: hidden;
+	background-size: cover;
+	position: relative;
+	background-position-x: center;
+}
+#bg-color {
+	background-color: #00000085;
+    height: 100%;
+}
+#strip {
+	background-color: #000000a3;
+    height: 75px;
+}
+#logo {
+	float: left;
+    padding-top: 2%;
+    margin-left: 13%;
+    color: #fff;
+}
+#menu {
+    float: right;
+    padding-top: 2%;
+    margin-right: -2%;
+    width: 50%;
+}
+#menu a {
+	color: #fff;
+	text-decoration: none;
+	margin: 2%;
+}
+#menu a:hover {
+	color: #a2b70d;
+}
+#mobile-menu {
+    width: 50%;
+    height: 100%;
+    float: right;
+    position: absolute;
+    top: 18.8%;
+	right: -51%;
+	transition: all .3s;
+	text-align: center;
+	display: none;
+}
+#chk {
+	display: none;
+}
+#bars {
+    float: right;
+    position: absolute;
+    right: 11%;
+    top: 35%;
+    font-size: 20pt;
+    display: none;
+    cursor: pointer;
+}
+#contant {
+	text-align: center;
+	color: #fff;
+}
+#contant h1 {
+	font-size: 4em;
+    font-weight: 100;
+}
+#contant p {
+	font-size: 1.3em;
+}
+#contant button {
+	padding: 1%;
+    color: #fff;
+    background-color: #a2b70d;
+    border: aliceblue;
+    cursor: pointer;
+}
+#contant button:hover {
+	background-color: transparent;
+	border: 2px solid #fff;
+}
+#contant i { 
+	top: 55%;
+    font-size: -webkit-xxx-large;
+    position: absolute;
+    right: 30px;
+    background-color: #a2b70d;
+    width: 4%;
+    cursor: pointer;
+}
+/*    end header    */
+/*        velit      */
+#margin-left-right {
+	margin-right: 10%;
+	margin-left: 10%;
+}
+#velit {
+	text-align: center;
+	background-color: #f6f6f6;
+	height: 100%;
+	overflow: hidden;
+	padding-bottom: 10%;
+}
+#velit h1 {
+	font-size: 2em;
+    font-weight: 100;
+}
+#velit p {
+	font-size: 1.3em;
+}
+.box {
+	float: left;
+	width: 22%;
+	border: 1px solid lightgray;
+	height: 200px;
+	margin: 0px 14px;
+	text-align: center;padding-bottom: 22%;
+}
+.box i {
+	font-size: 40px;
+	padding-top: 10%;
+}
+.box i:hover {
+	color: #a2b70d;
+	cursor: pointer;
+}
+.box h3 {
+	text-align: center;
+	color: #a2b70d;
+	font-size: 20px;
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+.box p {
+	font-size: 1.3em;
+	margin: 0 2%;
+}
+/*   end velit   */
+/*   eu neque   */
+#eu {
+	text-align: center;
+	overflow: hidden;
+	clear: both;
+	padding-bottom: 10%;
+}
+#eu h1  {
+	font-size: 2em;
+	font-weight: 100;
+
+}
+#eu p {
+	font-size: 1.3em;
+}
+.eu-box {
+	width: 31%;
+    float: left;
+    box-shadow: 0 0 2px 2px #c2c3c2;
+    margin: 1%;
+}
+.eu-box h3 {
+	font-weight: 100;
+	font-size: 1.5em;
+}
+.eu-box img {
+	width: 100%;
+}
+.eu-box1  {
+	position: relative;
+    top: -144px;
+    font-size: 30px;
+    color: #fff;
+    opacity: 0;
+}
+.eu-box:hover .eu-box1  {
+	opacity: 1;
+}
+.icon i {
+	font-size: 2em;
+	background-color: #adb955;
+	width: 13%;
+	color: #fff;
+	cursor: pointer;
+}
+.icon i:hover {
+	background-color: #48cbfd;
+}
+.icon #i1:hover {
+	background-color: red;
+}
+/*   eu neque end  */
+/*          start  varius    */
+#varius {
+	background-color: #6f7b13;
+	text-align: center;
+	overflow: hidden;
+	clear: both;
+	padding-bottom: 5%;
+}
+#varius h3 {
+	font-weight: 100;
+	font-size: 2em;
+	color: #fff;
+}
+#varius p {
+	font-size: 1.3em;
+	color: #fff;
+}
+.varius-box {
+	width: 25%;
+	float: left;
+}
+.varius-box i {
+	font-size: 3em;
+	color: #cbe21d;
+	cursor: pointer;
+}
+/*     end  varius  */
+/*     start justo   */
+#justo {
+	clear: both;
+	padding-bottom: 43%;
+}
+#justo-contant {
+	text-align: center;
+	padding-bottom: 8%;
+	padding-top: 8%;
+}
+#justo-contant h3 {
+	font-weight: 100;
+	font-size: 2em;
+}
+#justo-contant p {
+	font-size: 1.3em;
+}
+.justo-box {
+	width: 31%;
+	float: left;
+	text-align: center;
+	margin: 1%;
+	box-shadow: 0 0 2px 2px #c2c3c2;
+	padding-bottom: 2%;
+}
+.justo-box:hover {
+	border: 2px solid #ddd;
+	box-shadow: none;
+}
+.date {
+	width: 16%;
+    position: relative;
+    text-align: center;
+    top: 39px;
+    left: 12%;
+    float: left;
+    margin: -8%;
+}
+.date h2 {
+	background-color: #fff;
+	padding: 20%;
+	color: #565f1d;
+}
+.date p {
+	background-color: #ddd;
+	padding: 20%;
+	color: #565f1d;
+}
+.justo-box img {
+	width: 100%;
+}
+.justo-box h4 {
+	font-weight: 100;
+	font-size: 1.3em;
+}
+.justo-box h5 {
+	font-weight: 100;
+	font-size: 1.1em;
+}
+.justo-box span {
+	color: #a2b70d;
+	cursor: pointer;
+}
+.justo-box button {
+	color: #fff;
+	background-color: #a2b70d;
+	padding: 3%;
+	cursor: pointer;
+}
+.justo-box button:hover {
+	background-color: transparent;
+	border: 2px solid #ddd;
+	color: #000;
+}
+.justo-box hr {
+	border-color: #fff;
+}
+/*  end justo   */
+/*    start footer  */
+footer {
+	background-image: url(../img/background-02.jpg);
+	clear: both;
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+#bg-color-1 {
+	background-color: #0000001f;
+}
+.box1 {
+	color: #fff;
+    width: 31%;
+    float: left;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    margin: 1%;
+}
+#i2 {
+	color: #a2b70d;
+	cursor: pointer;
+}
+.box1 h5 {
+	font-size: 1em;
+	font-weight: 100;
+}
+#i3 i {
+	background-color: #a2b70d;
+	padding: 3%;
+	margin: 2%;
+	cursor: pointer;
+}
+#i4:hover {
+	background-color: #535edc;
+}
+#i5:hover {
+	background-color: #e46bca;
+}
+#i6:hover {
+	background-color: #3ca2a7;
+}
+#i7:hover {
+	background-color: #e05345;
+}

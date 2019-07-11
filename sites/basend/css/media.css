@@ -1,0 +1,97 @@
+@media only screen and (max-width: 460px) {
+	#logo {
+		padding-top: 5%;
+	}
+	#bars {
+	font-size: 20pt;
+    position: absolute;
+    right: 9%;
+    display: block;
+    color: #fff;
+    top: 3%;
+	}
+	#mobile-menu {
+	display: block;
+	}
+	#mobile-menu a {
+		display: block;
+    	background: green;
+   		width: 100%;
+    	padding: 20px;
+   		font-size: 20px;
+   		text-decoration: none;
+	}
+	#mobile-menu a:hover {
+		color: yellow;
+	}
+	#menu {
+		display: none;
+	}
+	#chk {
+	display: none;
+	}
+	#chk:checked ~ #mobile-menu {
+	right: 0;
+    width: 100%;
+    position: relative;
+    display: block;
+    top: 33%;
+    z-index: 1;
+	}
+	#contant h1 {
+    font-size: 3em;
+    font-weight: 100;
+	}
+	#contant p {
+    font-size: 0.9em;
+	}
+	#contant i {
+    top: 59%;
+    font-size: xx-large;
+    position: absolute;
+    right: 18px;
+    background-color: #a2b70d;
+    width: 6%;
+    cursor: pointer;
+	}
+	#velit h1 {
+    font-size: 1.8em;
+	}
+	#velit p {
+    font-size: 1em;
+	}
+	.box {
+		width: 100%;
+		height: 260px;
+	}
+	#eu h1 {
+		font-size: 1.8em;
+	}
+	#eu p {
+		font-size: 1em;
+	}
+	.eu-box {
+		width: 100%;
+	}
+	#varius h3 {
+		font-size: 1.8em;
+	}
+	#varius p {
+		font-size: 1em;
+	}
+	.varius-box {
+		width: 100%;
+	}
+	#justo-contant h3 {
+		font-size: 1.8em;
+	}
+	#justo-contant p {
+		font-size: 1em;
+	}
+	.justo-box {
+		width: 100%;
+	}
+	.box1 {
+		width: 100%;
+	}
+}

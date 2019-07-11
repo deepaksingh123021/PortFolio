@@ -1,0 +1,609 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+@font-face {
+	font-family: "calibril.ttf";
+	src: url("../fonts/calibril.ttf");
+}
+@font-face {
+	font-family: "comicbd.ttf";
+	src: url("../fonts/comicbd.ttf");
+}
+header {}
+#bg-image-1 {
+	background-image: url(../images/1.jpg);
+	height: 850px;
+	width: 100%;
+	background-size: cover;
+	text-align: center;
+	color: #fff;
+	background-attachment: fixed;
+}
+#bg-image-1 h2 {
+	font-family: "comicbd.ttf";
+}
+#bg-image-1 h1 {
+	font-family: "comicbd.ttf";
+}
+#i1 {
+	position: relative;
+    left: -40%;
+    top: 95px;
+    background-attachment: fixed;
+    cursor: pointer;
+}
+#bg-image-1 hr {
+	position: relative;
+	width: 30%;
+    left: 35%;
+}
+#i2 {
+	position: relative;
+    right: -40%;
+    top: -85px;
+    background-attachment: fixed;
+    cursor: pointer;
+}
+#margin-left-right {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+#strip {
+	top: 417px;
+    background-color: #25232370;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    position: relative;
+    width: 100%;
+}
+#menu a {
+	color: #fff;
+	text-decoration: none;
+	margin-left: 10%;
+}
+#menu a:hover {
+	color: yellow;
+}
+#mobile-menu {
+    background: white;
+    width: 50%;
+    height: 100%;
+    float: right;
+    position: absolute;
+    top: 18.8%;
+	right: -51%;
+	transition: all .3s;
+	text-align: center;
+	display: none;
+}
+#chk {
+	display: none;
+}
+#bars {
+    float: right;
+    position: absolute;
+    right: 11%;
+    top: 35%;
+    font-size: 20pt;
+    display: none;
+    cursor: pointer;
+}
+#image {
+	text-align: center;
+	color: #fff;
+}
+#image h1 {
+	font-family: "comicbd.ttf";
+}
+#image hr {
+	position: relative;
+    width: 20%;
+    left: 40%;
+}
+#image-1 {
+	background-image: url(../images/4.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 320px;
+	float: left;
+	width: 60%;
+}
+#c:hover hr {
+	width: 40%;
+	left: 30%;
+	transition: 0.5s;
+}
+#c {
+	background-color: #00ffff7d;
+    height: 320px;
+}
+#image-2 {
+	background-image: url(../images/2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 320px;
+	float: right;
+	width: 40%;
+}
+#c1 {
+	background-color: #0000ff61;
+    height: 320px;
+}
+#c1:hover hr {
+	width: 40%;
+	left: 30%;
+	transition: 0.5s;
+}
+#image-3 {
+	background-image: url(../images/3.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 320px;
+	float: left;
+	width: 40%;
+}
+#c2 {
+	background-color: #0000ff61;
+    height: 320px;
+}
+#c2:hover hr {
+	width: 40%;
+	left: 30%;
+	transition: 0.5s;
+}
+#image-4 {
+	background-image: url(../images/5.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 320px;
+	float: right;
+	width: 60%;
+}
+#c3 {
+	background-color: #00ffff7d;
+    height: 320px;
+}
+#c3:hover hr {
+	width: 40%;
+	left: 30%;
+	transition: 0.5s;
+}
+#image-5 {
+	background-image: url(../images/6.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 320px;
+	float: left;
+	width: 60%;
+}
+#c4 {
+	background-color: #00ffff7d;
+    height: 320px;
+}
+#c4:hover hr {
+	width: 40%;
+	left: 30%;
+	transition: 0.5s;
+}
+#image-6 {
+	background-image: url(../images/7.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 320px;
+	float: right;
+	width: 40%;
+}
+#c5 {
+	background-color: #0000ff61;
+    height: 320px;
+}
+#c5:hover hr {
+	width: 40%;
+	left: 30%;
+	transition: 0.5s;
+}
+#c:hover, #c1:hover, #c2:hover, #c3:hover, #c4:hover, #c5:hover  {
+	background :none;
+}
+#about {
+	clear: both;
+	padding-bottom: 5%;
+}
+#about h1 {
+	font-family: "comicbd.ttf";
+}
+#about-us {
+	width: 50%;
+}
+#lorem {
+	width: 50%;
+	float: right;
+    position: relative;
+    top: -265px;
+    right: -21px;
+    clear: both;
+}
+#background-color {
+	background-color: darkslateblue;
+    margin-bottom: -24%;
+    height: 947px;
+    clear: both;
+}
+#background-color h1 {
+	font-family: "comicbd.ttf";
+}
+#name-g h1{
+  width: 100px;
+    padding-top: 9%;
+    font-family: cursive;
+    color: white;
+    padding-bottom: 4%;
+}
+.image-g{
+  width: 50%;
+  float: left;
+}
+.img4 {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+.img4-text h1{
+    text-align: center;
+    margin-top: 40%;
+}
+.img4-text {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: rgba(0,0,0,.5);
+    width: 98%;
+    height: 100%;
+    color: #fff;
+    transition: all .3s;
+}
+.img4:hover .img4-text {
+  top: 0;
+}
+.image2-g{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+.image2-g-text h1{
+    text-align: center;
+    margin-top: 72%;
+    color: white
+}
+.image2-g-text{
+  position: absolute;
+  top: 100%;
+  left: 0%;
+  background-color: rgba(0,0,0,.5);
+  width: 100%;
+  height: 99%;
+  transition: all .3s;
+}
+.image2-g:hover .image2-g-text{
+  top: 0%;
+}
+.image-g2{
+  width: 50%;
+  float: left;
+}
+.img4 img{
+   width: 98%;
+}
+
+.image2-g {
+   width: 48%;
+   float: left;
+   margin-right: 2%;
+}
+.image2-g img{
+  width: 100%;
+}
+#background-color-1 {
+	text-align: center;
+	background-color: #adacac;
+	padding-bottom: 5%;
+	clear: both;
+}
+#background-color-1 h1 {
+	font-family: "comicbd.ttf";
+}
+button {
+	padding-bottom: 1%;
+	padding-top: 1%;
+	padding-right: 2%;
+	padding-left: 2%;
+	color: #fff;
+	background-color: #00c4ff;
+}
+button:hover {
+	cursor: pointer;
+	background-color: green;
+	color: #000;
+}
+#mer, #cli, #dav {
+	width: 33%;
+	float: left;
+	
+}
+#our-team {
+	clear: both;
+}
+#our-team h1 {
+	font-family: "comicbd.ttf";
+	color: #4170da;
+}
+#our-team img {
+	border-radius: 100%;
+	width: 40%;
+}
+#our-team img:hover {
+	width: 50%;
+	cursor: pointer;
+	display: block;
+}
+#d1, #d2, #d3, #d4 {
+	margin-top: 4%;
+	width: 50px;
+	height: 50px;
+	background-image: url(../images/img-sprite.png);
+	float: left;
+	transition: all .3s;
+	cursor: pointer;
+}
+#d1 {
+	margin-left: -0%;
+	background-position-y: -50px;
+}
+#d1:hover {
+	background-color: #fff;
+}
+#d2 {
+	background-position-x: +250px;
+	background-position-y: -50px; 
+}
+#d3 {
+	background-position-x: 200px; 
+	background-position-y: -50px;
+}
+#infor {
+	clear: both;
+}
+#mail h1, #call h1, #visit h1 {
+	font-family: "comicbd.ttf";
+}
+#message {
+	width: 60%;
+    background-color: #39395f;
+    clear: both;
+    height: 430px;
+    padding-top: 5%;
+    padding-left: 12%;
+}
+.in {
+	width: 40%;
+    height: 40px;
+    background-color: transparent;
+}
+#in {
+	width: 81%;
+    height: 117px;
+    background-color: transparent;
+}
+#mail {
+	float: left;
+    width: 40%;
+    background-color: #39395f;
+    position: relative;
+    top: -430px;
+    left: 811px;
+    padding-left: 2%;
+    height: 142px;
+}
+#call {
+	float: left;
+    width: 40%;
+    background-color: #39395f;
+    height: 142px;
+    position: relative;
+    padding-left: 2%;
+    top: -286px;
+    left: 271px;
+}
+#visit {
+	float: left;
+	padding-left: 2%;
+    width: 40%;
+    background-color: #39395f;
+    top: -284px;
+    position: relative;
+    left: 811px;
+    height: 142px;
+}
+#sub {
+	background-image: url("../images/4.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: block;
+	height: 438px;
+	background-attachment: fixed;
+}
+#l {
+	position: relative;
+    top: 221px;
+    left: -49%;
+    height: 48px;
+    width: 20%;
+    color: #fff;
+}
+#b {
+	position: relative;
+    top: 174px;
+    left: -28%;
+    background-color: #ff9900;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#b:hover {
+	background-color: green;
+	color: #000;
+}
+footer {
+	clear: both;
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+	height: 200px;
+}
+#d11, #d21, #d31, #d41 {
+	    margin-top: 4%;
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/img-sprite.png);
+    float: left;
+    transition: all .3s;
+    left: 42%;
+    position: relative;
+    top: -15px;
+}
+#d11 {
+	margin-left: -0%;
+	background-position-y: -50px;
+}
+#d21 {
+	background-position-x: +250px;
+	background-position-y: -50px; 
+}
+#d31 {
+	background-position-x: 200px; 
+	background-position-y: -50px;
+}
+#all {
+	position: relative;
+	position: relative;
+    left: -6%;
+    top: 120px;
+}
+@media only screen and (max-width: 480px) {
+	#bg-image-1 {
+		height: 405px;
+	}
+	#strip {
+		position: relative;
+	    height: 40px;
+	    top: 4px;
+	}
+	#bars {
+	font-size: 20pt;
+    position: absolute;
+    right: 9%;
+    bottom: -7px;
+    display: block;
+    top: 18%;
+	}
+	#mobile-menu {
+	display: block;
+	}
+	#mobile-menu a {
+		display: block;
+    	background: green;
+   		width: 100%;
+    	padding: 20px;
+   		font-size: 20px;
+   		text-decoration: none;
+	}
+	#mobile-menu a:hover {
+		color: yellow;
+	}
+	#menu {
+		display: none;
+	}
+	#chk {
+	display: none;
+	}
+	#chk:checked ~ #mobile-menu {
+	    right: 0;
+	    width: 100%;
+	    position: absolute;
+	    top: 100%;
+	    z-index: 1;
+	}
+	#image-1 {
+		width: 100%;
+	}
+	#image-2 {
+		width: 100%;
+	}
+	#image-3 {
+		width: 100%;
+	}
+	#image-4 {
+		width: 100%;
+	}
+	#image-5 {
+		width: 100%;
+	}
+	#image-6 {
+		width: 100%;
+	}
+	#about-us {
+   		 width: 100%;
+	}
+	#lorem {
+		width: 100%;
+	    position: inherit;
+	}
+	#background-color {
+		clear: both;
+		margin-bottom: 0%;
+		height: 2931px;
+	}
+	.image-g {
+		width: 100%;
+	}
+	.image2-g {
+		width: 100%;
+	}
+	#infor {
+		padding-bottom: 41%;
+	}
+	#mer, #cli, #dav {
+		width: 100%;
+	}
+	#message,  #mail, #call, #visit {
+		width: 100%;
+		position: inherit;
+		margin: 0.2%;
+	}
+	#sub {
+		position: relative;
+	    top: 233px;
+	}
+	#l {
+		left: 25%;
+    top: -160px;
+    width: 58%;
+	}
+	#b {
+		    top: -135px;
+    position: relative;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    left: 25%;
+    padding-left: 20%;
+    padding-right: 20%;
+	}
+	footer {
+		margin-top: 48%;
+		height: 150px;
+	}
+	#d11, #d21, #d31, #d41 {
+		left: 30%;
+	}
+	#all {
+		left: -20%;
+		top: 85px;
+	}
+}

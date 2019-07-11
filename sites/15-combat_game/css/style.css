@@ -1,0 +1,347 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+@font-face {
+	font-family: "Abel-Regular";
+	src: url("../fonts/Abel-Regular.ttf");
+}
+@font-face {
+	font-family: "BlackOpsOne-Regular";
+	src: url("../fonts/BlackOpsOne-Regular.ttf");
+}
+header {}
+#bg-image-1 {
+	background-image: url(../images/bg.jpg);
+	height: 750px;
+	width: 100%;
+	background-size: cover;
+}
+#margin-left-right {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+#strip {
+	background-color: #2f2f2f;
+	height: 60px;
+}
+#today { 
+	float: left;
+	padding-top: 1%;
+}
+#menu {
+	float: right;
+	padding-top: 1.5%;
+}
+#menu a {
+	color: #fff;
+	text-decoration: none;
+}
+#menu a:hover {
+	color: #fff700;
+}
+#contact {
+	color: #fff;
+	padding-top: 10%;
+}
+#contact h4 {
+	font-family: "Abel-Regular";
+}
+#contact h1 {
+	font-family: "BlackOpsOne-Regular";
+}
+#welcome {
+	text-align: center;
+	padding-top: 10%;
+	background-color: white;
+	margin-bottom: 40%;
+}
+#welcome h1 {
+	font-family: "Abel-Regular";
+}
+.effect1
+{
+  position: relative;
+}
+.effect1:before, .effect1:after
+{
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 15px;
+  left: 10px;
+  width: 50%;
+  top: 80%;
+  max-width:300px;
+  background: #777;
+  -webkit-box-shadow: 0 15px 10px #777;
+  -moz-box-shadow: 0 15px 10px #777;
+  box-shadow: 0 15px 10px #777;
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+.effect1:after
+{
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
+  right: 10px;
+  left: auto;
+}
+.image {
+	width: 32%;
+	float: left;
+	padding-right: 2%;
+}
+.image h4 {
+	font-family: "Abel-Regular";
+}
+#bg-image-2 {
+	background-image: url(../images/require.jpg);
+	height: 900px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	clear: both;
+}
+#combat {
+	text-align: center;
+	padding-top: 10%;
+}
+#combat h1 {
+	font-family: "Abel-Regular";
+}
+.icon {
+	background-color: #0000007d;
+    color: #fff;
+    width: 30%;
+    float: left;
+    height: 536px;
+    margin: 1%;
+}
+#icon1, #icon2, #icon3 {
+	background-image: url(../images/icons.png);
+    width: 75px;
+    height: 68px;
+    position: relative;
+    left: 30%;
+}
+#icon2 {
+	background-position-x:75px; 
+}
+#icon3 {
+	background-position-x:128px;
+	width: 50px; 
+}
+#up-coming {
+	padding-bottom: 10%;
+}
+#up {
+	text-align: center;
+	padding-top: 8%;
+	padding-bottom: 3%;
+}
+#up h1 {
+	font-family: "Abel-Regular";
+}
+#color {
+	background-color: #000;
+	width: 100%;
+	height: 470px;
+}
+#color h2 {
+	font-family: "Abel-Regular";
+}
+#color-1 {
+	padding-right: 1%;
+	padding-bottom: 1%;
+	padding-left: 1%;
+	padding-top: 1%;
+	width: 50%;
+	background-color: #fff;
+	height: 430px; 
+}
+#rv1, #rv2, #rv3, #v1, #v2, #v3 {
+	display: none;
+}
+#rv1:checked ~ #v1 {
+	display: block;
+}
+#rv2:checked ~ #v2 {
+	display: block;
+}
+#rv3:checked ~ #v3 {
+	display: block;
+}
+#sniper {
+	width: 50%;
+	float: right;
+	position: relative;
+	margin-top: -36%;
+	left: 2%;
+}
+.sniper {
+	height: 33%;
+}
+.m {
+	width: 70%;
+	padding-top: 5%;
+    padding-left: 3%;
+    float: right; 
+}
+.m h2 {
+	font-family: "Abel-Regular";
+	cursor: pointer;
+	color: #097adc;
+}
+.m p {
+	color: #ababab; 
+	font-size: x-small;
+}
+button {
+	color: #fff;
+    background-color: #097adc;
+    position: relative;
+    left: 75%;
+    padding: 2%;
+}
+#team {
+	text-align: center;
+    background-color: #c1c1c1;
+    clear: both;
+    padding-top: 5%;
+    height: 850px;
+}
+#tame h2, h4, p {
+	font-family: "Abel-Regular";
+}
+.images {
+	width: 23%;
+	float: left;
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-top: 1%;
+    margin-bottom: 1%;
+}
+.images img {
+	border-radius: 18px; 
+}
+footer {
+	    background-color: #151414;
+    clear: both;
+    height: 400px;
+    padding-top: 5%;
+}
+footer h1 {
+	font-family: "BlackOpsOne-Regular";
+	color: #097adc;
+	font-weight: 100;
+}
+footer p {
+	font-family: "Abel-Regular";
+}
+#address,  #new {
+	width: 32%;
+	float: left;
+}
+#follow-us {
+	width: 35%;
+	float: left;
+}
+#d1, #d2, #d3, #d4, #d5, #d6 {
+	margin-top: 4%;
+	width: 50px;
+	height: 50px;
+	background-image: url(../images/img-sprite.png);
+	float: left;
+	transition: all .3s;
+}
+#d1 {
+	margin-left: -0%;
+}
+#d2 {
+	background-position-x: +50px; 
+}
+#d3 {
+	background-position-x: -100px; 
+}
+#d4 {
+	background-position-x: -150px;
+}
+#d5 {
+	background-position-x: -200px;
+}
+#d6 {
+	background-position-x: -250px;
+}
+#d1:hover {background-position-y: -50px;}
+#d2:hover {background-position-y: -50px;}
+#d3:hover {background-position-y: -50px;}
+#d4:hover {background-position-y: -50px;}
+#d5:hover {background-position-y: -50px;}
+#d6:hover {background-position-y: -50px;}
+#new hr {
+	color: #fff;
+	width: 87%;
+}
+button2 {
+	color: #fff;
+    border: 2px solid;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+    position: relative;
+    left: 266px;
+    top: -26px;
+    background-color: #000;
+    font-family: "Abel-Regular";
+}
+@media only screen and (
+	max-width: 480px) {
+	#strip {
+		height: 73px;
+	}
+	#today {
+		    padding-left: 14%;
+	}
+	#menu {
+		    padding-right: 7%;
+	}
+	.image {
+		width: 100%;
+	}
+	.icon {
+		    width: 100%;
+	}
+	#bg-image-2 {
+		    height: 1786px;
+	}
+	#color-1 {
+		    width: 99%;
+	}
+	#sniper {
+		    width: 102%;
+		    margin-top: 5%;
+	}
+	#color {
+		    height: 880px;
+	}
+	.images {
+		    width: 48%;
+	}
+	footer {
+		height: 524px;
+	}
+	#address, #follow-us, #new {
+		width: 100%;
+	}
+	#new hr {
+		width: 80%;
+	}
+	button2 {
+		left: 290px;
+	}
+}

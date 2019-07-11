@@ -1,0 +1,6 @@
+anchor
+line-chart
+check-square-o
+ship
+truck
+plane
